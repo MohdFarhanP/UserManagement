@@ -26,7 +26,6 @@ const Login = () => {
             if (isAdmin) {
                 navigate('/adminDashboard');
             } else {
-                console.log('aalnd')
                 navigate('/home');
             }
         }
